@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Moderustic", sans-serif;
+}
+
+.gap{
+    background-color: #1b1743;
+}
+
+body{
+    background: #000036;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 80px;
+}
+
+.personal-info h1{
+    font-size: 3em;
+    color: #7562E0;
+    margin-left: 40px;
+}
+.personal-info p{
+    margin-left: 40px;
+}
+
+#default{
+    color: #7562E0;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li{
+    margin-right: 50px;
+    font-size: 17px;
+    padding: 5px 9px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: #7562E0;
+    transition: .2s;
+}
+
+main{
+    height: calc(100vh - 120px);
+    background-color: #1b1743;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-info{
+    width: 580px;
+    margin-right: 50px;
+}
+
+.detail-info h1{
+    font-size: 5em;
+}
+
+.detail-info p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.detail-info i{
+    font-size: 30px;
+    position: relative;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+main img{
+    width: 700px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.gap
+{
+    height: 120px;
+    background-color:#1b1743;
+}
+
+#about{
+    background-color: #1b1743;
+    padding: 40px 90px;
+    height: 100vh;
+}
+
+.heading{
+    color: #7562E0;
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+
+.sub-heading{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0;
+}
+
+.box{
+    width: 350px;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 20px;
+    background-color: #7562E0;
+}
+
+.box h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#Projects{
+    background-color: #1b1743;
+    height: 100vh;
+    padding: 40px 90px;
+}
+
+.projects-heading{
+    font-size: 3.5em;
+    color: #7562E0;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.buttons button{
+    width: 140px;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #ad9fff;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.boxx
+{
+    width: 350px;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 20px;
+    background-color: #7562E0;
+}
+
+.boxx img{
+    width: 310px;
+}
+
+.boxx h1{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact{
+    height: 80vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: #1b1743;
+    padding: 59px;
+}
+
+.about-me h1{
+    font-size: 3.5em;
+    color: #7562E0;
+}
+
+.row
+{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.row p{
+    margin-left: 20px;
+}
+
+.icons i{
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+.about-me a{
+    margin-top: 40px;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #7562E0;
+    border: none;
+    font-size: 17px;
+    color: white;
+}
+
+.input-fields h1{
+    font-size: 3.5em;
+    color: #7562E0;
+}
+
+form input{
+    width: 472px;
+    height: 60px;
+    background-color: #32323F;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+}
+
+form textarea{
+    width: 472px;
+    height: 100px;
+    background-color: #32323F;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+}
+
+.input-fields button{
+    width: 170px;
+    height: 50px;
+    font-size: 17px;
+    margin: 17px 0;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #7562E0;
+}
+
+
+
+
+
+
+
+
